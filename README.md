@@ -8,4 +8,6 @@ This repository is for storing the sketch files I type up from the project instr
 ### Month 1 - Mood Lamp
 [mood_lamp.ino](https://github.com/townsean/creation-crate/blob/master/sketches/mood_lamp/mood_lamp.ino) is a lamp that changes colors and only turns on when it's dark.
 
+![mood lamp](https://github.com/townsean/creation-crate/blob/master/sketches/mood_lamp/mood_lamp.gif)
+
 ### Month 2 - Memory Game
