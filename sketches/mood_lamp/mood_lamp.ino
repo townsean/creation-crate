@@ -1,3 +1,5 @@
+// Creation Crate: Month 1 - Mood Lamp
+
 int pulseSpeed = 1;
 int ldrPin = 0; // LDR (Light Dependent Resistor) in Analog 0
 int redLed = 11;
