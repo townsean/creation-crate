@@ -37,7 +37,7 @@ void loop() {
     // blue LED
     RGB[2] = power * abs(sin((x + (2 * PI) / 3) * (CommonMathVariable)));
 
-    ambientLight = analogRead(ldrPin);
+    ambientLight = analogRead(ldrPin);the led 
 
     if(ambientLight > 600) {
       analogWrite(redLed, RGB[0]);
