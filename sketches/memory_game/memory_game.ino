@@ -133,5 +133,97 @@ void loop() {
         buttonChange += buttonState[i];  
       }
     }
+
+    for(i = 0; i < 4; i += 1) {
+      if(buttonState[i] == HIGH) {
+        // turns the corresponding LED to the button presse, and
+        // plays the corresponding sound on the buzzer
+        digitalWrite(i + 7, HIGH);
+        playTone(tones[i], ledTime);
+        digitalWrite(i + 7, LOW);  
+
+        wait = 0;
+
+        // stores the user's input to be matched against the game pattern
+        u_array[j] = i; 
+
+        buttonState[i] = LOW;
+        buttonChange = 0;
+      }
+    }
+
+    // checks if the button pressed matches the game pattern
+    if(u_array[j] == n_array[j]) {
+        j++;
+        correct = 1;
+    }
+    else {
+      correct = 0;
+      i = 4;
+      j = currentLevel;
+      wait = 0;
+    }    
+  }
+
+  // if user makes a mistake reset and start the game over
+  if (correct == 0) {
+    delay(300); 
+    i = 0;
+    gameOn = 0;
+    currentLevel = 1;
+
+    for(i = 0; i < 4; i += 1) {
+      digitalWrite(i + 7, HIGH);
+    }
+
+    playTone(tones[4], ledTime);
+
+    for(i = 0; i < 4; i += 1) {
+      digitalWrite(i + 7, LOW);  
+    }
+
+    delay(200);
+
+    for(i = 0; i < 4; i += 1) {
+      digitalWrite(i + 7, HIGH);  
+    }
+
+    playTone(tones[4], ledTime);
+    
+    for(i = 0; i < 4; i += 1) {
+      digitalWrite(i + 7, LOW);  
+    }
+
+    delay(500);
+    gameOn = 0;
+  }
+
+  // if user gets the sequence right, the games goes up one level
+  if ( correct == 1) {
+    currentLevel++;
+    wait = 0;
+  }
+
+  if ( currentLevel == n_levels) {
+    delay(500);
+    int notes[] = { 2, 2, 2, 2, 0, 1, 2, 1, 2 };
+    int note = 0;
+    int tempo[] = { 200, 200, 200, 400, 400, 400, 200, 200, 600 };  
+    int breaks[] = { 100, 100, 100, 200, 200, 200, 300, 100, 200 };
+
+    // victory song if the game is beaten
+    for(i = 0; i < 9; i += 1) {
+      note = notes[i];
+      digitalWrite(note + 7, HIGH);
+      playTone(tones[note], tempo[i]);
+      digitalWrite(note + 7, LOW);
+      delay(breaks[i]);
+    }
+
+    gameOn = 0;
+    currentLevel = 1;
+    n_levels = n_levels + 2;
+
+    speedFactor += 1;
   }
 }
