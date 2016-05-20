@@ -11,3 +11,7 @@ This repository is for storing the sketch files I type up from the project instr
 ![mood lamp](https://github.com/townsean/creation-crate/blob/master/sketches/mood_lamp/mood_lamp.gif)
 
 ### Month 2 - Memory Game
+
+## License
+
+GNU General Public License
