@@ -18,6 +18,8 @@ This repository is for storing sketch files I type up from the project instructi
 
 (It looks like I correctly matched the pattern here, but I did not press the blue button hard enough and it did not pick up on the input.)
 
+### Month 3 - ???
+
 ## License
 
 GNU General Public License
