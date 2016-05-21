@@ -14,6 +14,10 @@ This repository is for storing sketch files I type up from the project instructi
 
 [memory_game.ino](https://github.com/townsean/creation-crate/blob/master/sketches/memory_game/memory_game.ino) is a memory game.  Users match the pattern of the LEDs with button presses.
 
+![memory game](https://github.com/townsean/creation-crate/blob/master/sketches/memory_game/memory_game.gif)
+
+(It looks like I correctly matched the pattern here, but I did not press the blue button hard enough and it did not pick up on the input.)
+
 ## License
 
 GNU General Public License
