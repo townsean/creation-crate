@@ -1,3 +1,4 @@
+// License: GNU General Public License
 // Creation Crate: Month 1 - Mood Lamp
 
 int pulseSpeed = 1;
