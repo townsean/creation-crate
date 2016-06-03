@@ -20,6 +20,8 @@ Read the project details [here](http://www.thecodingcouple.com/creation-crate-mo
 
 (It looks like I correctly matched the pattern here, but I did not press the blue button hard enough and it did not pick up on the input.)
 
+Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-2-arduino-powered-memory-game/)
+
 ### Month 3 - ???
 
 ## License
