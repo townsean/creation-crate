@@ -24,7 +24,7 @@ Read the project details [here](http://www.thecodingcouple.com/creation-crate-mo
 
 ### Month 3 - Distance Detector
 
-[distance_detector.ino](https://github.com/townsean/creation-crate/blob/master/sketches/distance_detector/distance_detector.ino) is a distance detector.  With the help of an ultrasonic sensor, the Arduino will provide a visual (LEDs) and audio (buzzer) indicators of how away an object is.
+[distance_detector.ino](https://github.com/townsean/creation-crate/blob/master/sketches/distance_detector/distance_detector.ino) is a distance detector.  With the help of an ultrasonic sensor, the Arduino will provide visual (LEDs) and audio (buzzer) indicators of how away an object is.
 
 Read the project details [here](http://www.thecodingcouple.com/creation-create-month-3-distance-detector/).
 
