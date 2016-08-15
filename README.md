@@ -10,9 +10,19 @@ This repository is for storing sketch files I type up from the project instructi
 
 ![mood lamp](https://github.com/townsean/creation-crate/blob/master/sketches/mood_lamp/mood_lamp.gif)
 
+Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-1-arduino-powered-mood-lamp/)!
+
 ### Month 2 - Memory Game
 
 [memory_game.ino](https://github.com/townsean/creation-crate/blob/master/sketches/memory_game/memory_game.ino) is a memory game.  Users match the pattern of the LEDs with button presses.
+
+![memory game](https://github.com/townsean/creation-crate/blob/master/sketches/memory_game/memory_game.gif)
+
+(It looks like I correctly matched the pattern here, but I did not press the blue button hard enough and it did not pick up on the input.)
+
+Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-2-arduino-powered-memory-game/)!
+
+### Month 3 - ???
 
 ## License
 
