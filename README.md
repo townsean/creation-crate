@@ -30,7 +30,7 @@ Read the project details [here](http://www.thecodingcouple.com/creation-create-m
 
 ### Month 4 - LED Dice Game
 
-Project details coming soon!
+[led_dice_game.ino](https://github.com/townsean/creation-crate/blob/master/sketches/led_dice_game/led_dice_game.ino) simulates the roll of a 6-sided die.
 
 ### Month 5 - ???
 
