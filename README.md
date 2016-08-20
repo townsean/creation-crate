@@ -34,7 +34,7 @@ Read the project details [here](http://www.thecodingcouple.com/creation-create-m
 
 ![LED dice game](https://github.com/townsean/creation-crate/blob/master/sketches/led_dice_game/led_dice_game.gif)
 
-Read the project details here!
+Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-4-arduino-powered-led-dice-game/)!
 
 ### Month 5 - ???
 
