@@ -32,7 +32,9 @@ Read the project details [here](http://www.thecodingcouple.com/creation-create-m
 
 [led_dice_game.ino](https://github.com/townsean/creation-crate/blob/master/sketches/led_dice_game/led_dice_game.ino) simulates the roll of a 6-sided die.
 
-Read the project details here!
+![LED dice game](https://github.com/townsean/creation-crate/blob/master/sketches/led_dice_game/led_dice_game.gif)
+
+Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-4-arduino-powered-led-dice-game/)!
 
 ### Month 5 - ???
 
