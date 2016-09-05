@@ -38,7 +38,7 @@ Read the project details [here](http://www.thecodingcouple.com/creation-crate-mo
 
 ### Month 5 - Optical Theremin
 
-[optical_theremin.ino](https://github.com/townsean/creation-crate/blob/master/sketches/optical_theremin/optical_theremin.ino) with a buzzer, a LDR and a potentiometer wave your hands in the air to control the sound of the [theremin](https://en.wikipedia.org/wiki/Theremin).
+[optical_theremin.ino](https://github.com/townsean/creation-crate/blob/master/sketches/optical_theremin/optical_theremin.ino) simulates a [theremin](https://en.wikipedia.org/wiki/Theremin), an electronic musical instrument that detects hand movement to control the frequency of the sound.
 
 ### Month 6 - ???
 
