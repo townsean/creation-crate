@@ -40,7 +40,17 @@ Read the project details [here](http://www.thecodingcouple.com/creation-crate-mo
 
 [optical_theremin.ino](https://github.com/townsean/creation-crate/blob/master/sketches/optical_theremin/optical_theremin.ino) simulates a [theremin](https://en.wikipedia.org/wiki/Theremin), an electronic musical instrument that detects hand movement to control the frequency of the sound.
 
-### Month 6 - ???
+### Month 6 - 2-Player Reflex Game
+
+[reflex_game.ino](https://github.com/townsean/creation-crate/blob/master/sketches/reflex_game/reflex_game.ino) is a 2-player reflex game. The game measures how quickly players react. 
+
+### Month 7 - Weather Station
+
+(details coming soon)
+
+### Month 8 - Audio Visualizer
+
+(details coming soon)
 
 ## License
 
