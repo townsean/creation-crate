@@ -36,7 +36,11 @@ Read the project details [here](http://www.thecodingcouple.com/creation-create-m
 
 Read the project details [here](http://www.thecodingcouple.com/creation-crate-month-4-arduino-powered-led-dice-game/)!
 
-### Month 5 - ???
+### Month 5 - Optical Theremin
+
+[optical_theremin.ino](https://github.com/townsean/creation-crate/blob/master/sketches/optical_theremin/optical_theremin.ino) simulates a [theremin](https://en.wikipedia.org/wiki/Theremin), an electronic musical instrument that detects hand movement to control the frequency of the sound.
+
+### Month 6 - ???
 
 ## License
 
